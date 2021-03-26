@@ -1,0 +1,16 @@
+@media (max-width: 992px) {
+    .nav-header form{
+        display: none;
+    }
+    .nav-header{
+        height: auto;
+    }
+    #main-slider{
+        height: 250px !important;
+        overflow: hidden;
+    }
+    #main-slider .carousel-item img{
+        height: 250px;
+        object-fit: cover;
+    }
+}
